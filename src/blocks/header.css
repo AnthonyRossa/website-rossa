@@ -1,0 +1,29 @@
+.header {
+  padding: 120px 50px 0;
+  display: flex;
+  border-bottom: solid 2px black;
+}
+
+.header__content {
+  width: 50%;
+  align-self: center;
+}
+
+.header__title {
+  padding: 0 30px;
+  text-align: center;
+  justify-self: center;
+}
+
+.header__description {
+  padding: 0 30px;
+  justify-self: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.header__image {
+  width: 50%;
+  max-height: 70vh;
+  border-radius: 15px;
+}

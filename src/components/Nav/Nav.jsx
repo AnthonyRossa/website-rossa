@@ -19,13 +19,13 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a className="nav__list-item" href="#contact">
-              Contato
+            <a className="nav__list-item" href="#location">
+              Localização
             </a>
           </li>
           <li>
-            <a className="nav__list-item" href="#location">
-              Localização
+            <a className="nav__list-item" href="#contact">
+              Contato
             </a>
           </li>
         </ul>

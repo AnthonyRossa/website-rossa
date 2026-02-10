@@ -6,7 +6,9 @@
   height: 120px;
   justify-content: space-between;
   padding: 0 50px;
-  background-color: darkred;
+  background-color: #550000;
+  border: solid 2px white;
+  border-radius: 0 0 10px 10px;
   z-index: 1;
 }
 

@@ -46,3 +46,9 @@
 .products__card-description {
   margin: 10px 0 10px 10px;
 }
+
+@media screen and (max-width: 910px) {
+  .products__cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

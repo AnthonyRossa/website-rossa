@@ -1,0 +1,22 @@
+.separator {
+  display: flex;
+  justify-content: center;
+  margin: 90px 0;
+  position: relative;
+}
+
+.separator__line {
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  z-index: 1;
+  margin: 0 5%;
+}
+
+.separator__image {
+  max-height: 90px;
+  max-width: 90px;
+  z-index: 2;
+  position: absolute;
+  top: -30px;
+}

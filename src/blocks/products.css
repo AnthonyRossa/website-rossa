@@ -1,14 +1,12 @@
 .products {
-  scroll-margin-top: 100px;
-  background-color: #550000;
+  scroll-margin-top: 170px;
   width: 100%;
-  color: white;
+  z-index: 3;
 }
 
 .products__title {
   justify-self: center;
   margin: 0 0 80px 0;
-  padding: 40px 0 0 0;
   font-size: 32px;
 }
 
@@ -23,16 +21,10 @@
 
 .products__card {
   max-width: 280px;
-  border: solid 1px white;
+  border: solid 2px black;
   border-radius: 5px;
-  transition: background-color 0.5s ease;
-}
-
-.products__card:hover {
-  cursor: pointer;
-  border: solid 1px black;
-  background-color: white;
-  color: black;
+  background-color: #550000;
+  color: white;
 }
 
 .products__card-image {

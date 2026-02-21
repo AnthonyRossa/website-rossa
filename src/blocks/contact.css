@@ -83,3 +83,20 @@
 .contact__image-email:hover {
   transform: scale(1.5);
 }
+
+@media (max-width: 910px) {
+  .contact__content {
+    width: 30%;
+  }
+}
+
+@media (max-width: 740px) {
+  .contact__content {
+    width: 50%;
+  }
+
+  .contact__title {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+  }
+}
